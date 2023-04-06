@@ -468,6 +468,37 @@ img {
 .footer-container {
   display: flex;
 }
+.footer-input-icon {
+  display: flex;
+  margin-left: 80px;
+}
+.footer-form-subscribe {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-left: 80px;
+}
+.footer-form-btn {
+  font-family: "Roboto", sans-serif;
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--actient-color-);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  width: auto;
+  padding: 16px 32px;
+  display: block;
+  margin: 0px auto;
+  border: none;
+  transition: background-color var(--transition);
+}
 
 /* portfolio */
 
@@ -673,7 +704,8 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 padding-top: 72px;
-color: var(--title-color)
+color: var(--title-color);
+
 }
 .modal-form-input-desc {
   
